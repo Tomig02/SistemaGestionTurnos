@@ -1,8 +1,8 @@
 
 ## Anexo - Introducción al Diseño Orientado a Objetos
 Desde principio de la década de los noventa hasta la actualidad, la Programación Orientada a Objetos se ha establecido como el paradigma más extendido entre la comunidad de programadores
-La Programación Orientada a Objetos supone un cambio en la concepción
-del mundo de desarrollo de software, introduciendo una mayor abstracción que permite mejorar las características del código final. Las aportaciones de este paradigma se pueden resumir en lo siguientes beneficios:
+Este modelo de programación se organiza alrededor de datos u objetos, en vez de usar funciones y lógica. Se enfoca en los objetos que se manipulan, en lugar de en la lógica necesaria para esa manipulación. Por esto, la principal característica de este tipo de programación es que soporta objetos
+La Programación Orientada a Objetos supone un cambio en la concepción del mundo de desarrollo de software, introduciendo una mayor abstracción que permite mejorar las características del código final. Las aportaciones de este paradigma se pueden resumir en lo siguientes beneficios:
 
 - <strong>Abstraccion:</strong> Consta de separar al objeto de el contexto en el que normalmente se lo relaciona, para pensar que es lo que lo diferencia de los demas objetos y llevarlo asi a una expresion mas simplificada que represente solo las caracteristicas que lo definen
 
