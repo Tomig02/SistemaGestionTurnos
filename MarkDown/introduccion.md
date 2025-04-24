@@ -35,27 +35,27 @@ La Programación Orientada a Objetos supone un cambio en la concepción del mund
 - ###  <u> Nuevo paciente </u>
     - <strong> Actor(es) involucrado(s):</strong> Terminal de usuario, pacientes
     - <strong>Descripcion: </strong> Durante la gestion de los turnos, existe la posibilidad de que el cliente que solicita un turno no se haya atendido anteriormente, en este caso es necesario generar un nuevo perfil con los datos del nuevo cliente
-    - <strong> Flujo principal de eventos: </strong> El nuevo paciente pide un turno, se busca en el listado de pacientes, no existe, se genera un nuevo objeto paciente con sus datos, se ingresa este nuevo objeto en el listado de pacientes, ahora es posible responder a la solicitud de turno
+    - <strong> Flujo principal de eventos: </strong> El nuevo paciente pide un turno, se ingresan sus datos en el sistema, se valida que los datos se ingresaron correctamente, se busca en el listado de pacientes, no existe, se genera un nuevo objeto paciente con los datos, se ingresa este nuevo objeto en el listado de pacientes, ahora es posible responder a la solicitud de turno
     - <strong> Precondiciones: </strong> Solicitud de nuevo cliente, no existe dentro del sistema
     - <strong> Postcondiciones: </strong> Nuevo objeto cliente dentro del sistema, contiene los datos pertinentes
 - ###  <u> Nuevo profesional de la salud </u>
     - <strong> Actor(es) involucrado(s): </strong> Terminal de usuario, profesional de la salud
     - <strong> Descripcion: </strong> Es posible que la clinica tenga la necesidad de contratar nuevos profesionales para ofrecer nuevos servicios que se encuentren en demanda, en este caso seria necesario generar un nuevo perfil con los datos del nuevo profesional
-    - <strong> Flujo principal de eventos: </strong> Se genera una nueva contratacion, por lo tanto el profesional no existe en el sistema, se genera un nuevo objeto con los datos del nuevo doctor, se ingresa a la cartilla medica, ahora esta habilitado para recibir turnos
+    - <strong> Flujo principal de eventos: </strong> Se genera una nueva contratacion, por lo tanto el profesional no existe en el sistema, se ingresan sus datos en el sistema, se valida que los datos se ingresaron de forma correcte, se genera un nuevo objeto con los datos del nuevo doctor, se le asigna una nueva agenda vacia, se guarda en la cartilla medica, ahora esta habilitado para recibir turnos
     - <strong>Precondiciones: </strong> Nueva contratacion de profesional de la salud, no existe dentro del sistema
     - <strong>Postcondiciones: </strong> Nuevo objeto conteniendo los datos pertinentes del nuevo profesional de la salud
 - ### <u> Nuevo turno </u>
     - <strong> Actor(es) involucrado(s): </strong> Paciente, Terminal de usuario, Profesional de la salud
     - <strong> Descripcion: </strong> Seria la funcion principal y mas importante de este gestor, al recibir el pedido de atencion de un cliente, es necesario generar un nuevo turno a su nombre en la agenda de turnos 
-    - <strong> Flujo principal de eventos: </strong> Un paciente solicita un turno, se genera un objeto turno con los datos de la consulta, se busca la agenda del doctor/especialidad solicitado(a), Se ingresa el turno en la agenda, se notifica
-    - <strong> Precondiciones </strong>
-    - <strong> Postcondiciones </strong>
+    - <strong> Flujo principal de eventos: </strong> Un paciente solicita un turno, se busca al paciente dentro del sistema, si existe se continua sino se pide que se ingrese antes de continuar, se genera un objeto turno con los datos de la consulta, se busca la agenda del doctor/especialidad solicitado(a), Se ingresa el turno en la agenda, se notifica de este nuevo turno
+    - <strong> Precondiciones </strong> Un cliente necesita un turno nuevo, sabe la especialidad/prestador que necesita
+    - <strong> Postcondiciones </strong> El cliente agendo su nuevo turno
 - ### <u> consulta de turno </u>
     - <strong> Actor(es) involucrado(s): </strong> Paciente, Terminal de usuario
     - <strong> Descripcion: </strong> En caso de que sea necesario recordarle los datos del turno al cliente, se haria necesario tener la capacidad de consultar la informacion de la agenda de turnos
     - <strong> Flujo principal de eventos: </strong> Un cliente no recuerda sus turnos, se ingresa al historial de turnos del cliente, se le informa de los turnos que necesite saber, el paciente ahora tiene la informacion buscada
-    - <strong> Precondiciones </strong>
-    - <strong> Postcondiciones </strong>
+    - <strong> Precondiciones </strong> El cliente necesita la informacion de su turno, lo pidio previamente
+    - <strong> Postcondiciones </strong> El cliente obtuvo la informacion necesaria
 - ### <u> notificacion </u>
     - <strong> Actor(es) involucrado(s): </strong> Paciente, Terminal de usuario, Profesional de la salud
     - <strong> Descripcion: </strong> En caso de que suceda algun evento relacionado al turno del cliente, seria necesario notificar a quien sea pertinente de que se produjo un evento, que tipo de evento es y  sobre cual turno
@@ -65,13 +65,13 @@ La Programación Orientada a Objetos supone un cambio en la concepción del mund
 - ### <u> acceso al sistema </u>
     - <strong> Actor(es) involucrado(s): </strong> Usuario, Terminal de usuario
     - <strong> Descripcion: </strong> Para mantener la seguridad de los datos dentro del sistema, es necesario requerir el chequeo de aprobacion al momento de ingresar al sistema
-    - <strong> Flujo principal de eventos: </strong> El usuario desea ingresar al sistema, ingresa el usuario, ingresa la contraseña, se chequea si ambos datos son correctos, el usuario ingresa al sistema
+    - <strong> Flujo principal de eventos: </strong> El usuario desea ingresar al sistema, ingresa el usuario, ingresa la contraseña, se chequea si ambos datos son correctos, si son correcots el usuario ingresa al sistema sino se avisa que no los datos ingresados son incorrectos
     - <strong> Precondiciones: </strong> Un usuario desea ingresar al sistema, tiene acceso a este
     - <strong> Postcondiciones </strong> El usuario accede al sistema con exito
 
 ---
 
-## Boceto inicial del diseño de clases [Ver Diagrama de clases](https://excalidraw.com/#json=KZ2K05D3fDmmzUnPLjUr7,kv-aiHTS16bJzXqlilG6xg "Title")
+##  [Boceto inicial del diseño de clases](https://excalidraw.com/#json=KZ2K05D3fDmmzUnPLjUr7,kv-aiHTS16bJzXqlilG6xg "Title")
 
 ![Grafico explicativo de abstraccion](../Imagenes/diagrama.png "Title")
 

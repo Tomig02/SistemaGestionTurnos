@@ -4,8 +4,8 @@ Estos principios fueron introducidos por el informático Robert C. Martin, con e
 
 Este mnemonico esta compuesto por 5 principios especificos que le dan su forma por sus siglas en ingles
 
-- [Responsabilidad Única (SRP)](#)
-- [Abierto/Cerrado (OCP)](#)
-- [Sustitución de Liskov (LSP)](#)
-- [Segregación de Interfaces (ISP)](#)
-- [Inversión de Dependencias (DIP)](#)
+- [Responsabilidad Única (SRP)](./srp.md)
+- [Abierto/Cerrado (OCP)](./ocp.md)
+- [Sustitución de Liskov (LSP)](./lsp.md)
+- [Segregación de Interfaces (ISP)](./isp.md)
+- [Inversión de Dependencias (DIP)](./dip.md)
