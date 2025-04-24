@@ -4,19 +4,19 @@ Desde principio de la década de los noventa hasta la actualidad, la Programaci�
 Este modelo de programación se organiza alrededor de datos u objetos, en vez de usar funciones y lógica. Se enfoca en los objetos que se manipulan, en lugar de en la lógica necesaria para esa manipulación. Por esto, la principal característica de este tipo de programación es que soporta objetos
 La Programación Orientada a Objetos supone un cambio en la concepción del mundo de desarrollo de software, introduciendo una mayor abstracción que permite mejorar las características del código final. Las aportaciones de este paradigma se pueden resumir en lo siguientes beneficios:
 
-- <strong>Abstraccion:</strong> Consta de separar al objeto de el contexto en el que normalmente se lo relaciona, para pensar que es lo que lo diferencia de los demas objetos y llevarlo asi a una expresion mas simplificada que represente solo las caracteristicas que lo definen. [Link al grafico](# "Title")
+- <strong>Abstraccion:</strong> Consta de separar al objeto de el contexto en el que normalmente se lo relaciona, para pensar que es lo que lo diferencia de los demas objetos y llevarlo asi a una expresion mas simplificada que represente solo las caracteristicas que lo definen. [Link al grafico](https://drive.google.com/file/d/1vX57lfo7TVZ6pMGTDFYMNyUqY6XCLu3b/view?usp=drive_link "Title")
 
 ![Grafico explicativo de abstraccion](../Imagenes/Abstraccion.png "Title")
 
-- <strong>Herencia:</strong>  permite la reutilización del código heredado. Se pueden usar las clases en distintas partes del programa y en diferentes proyectos de manera que no es necesario escribirlas de nuevo. Además, al aplicar un cambio en la clase, todas las subclases lo adoptarán automáticamente. Tambien aporta mayor modificabilidad permitiendo añadir, modificar o eliminar nuevos objetos o funciones fácilmente. [Link al grafico](https://excalidraw.com/#json=FxrRERw9nSOBUSBMmflaR,FeeHuNq_30etTGuRFt6SLg "Title")
+- <strong>Herencia:</strong>  permite la reutilización del código heredado. Se pueden usar las clases en distintas partes del programa y en diferentes proyectos de manera que no es necesario escribirlas de nuevo. Además, al aplicar un cambio en la clase, todas las subclases lo adoptarán automáticamente. Tambien aporta mayor modificabilidad permitiendo añadir, modificar o eliminar nuevos objetos o funciones fácilmente. [Link al grafico](https://drive.google.com/file/d/1ia-C2UJipshdwzxPUBN3ouVSxPfUrmmf/view?usp=drive_link "Title")
 
 ![Grafico explicativo de abstraccion](../Imagenes/Herencia.png "Title")
 
-- <strong>Encapsulamiento:</strong> Facilidad para detectar errores en el código. Gracias a la encapsulación, es más fácil abstraer un problema y saber dónde buscar el error. Tambien aporta modularidad, un equipo puede trabajar en múltiples objetos a la vez mientras se minimizan las posibilidades de codigo duplicado. También permite dividir los problemas en partes más pequeñas.  [Link al grafico](https://excalidraw.com/#json=dAxXb9ybYKSou77apYc2L,h8K_mbSXSk36QsciyWxC6Q "Title")
+- <strong>Encapsulamiento:</strong> Facilidad para detectar errores en el código. Gracias a la encapsulación, es más fácil abstraer un problema y saber dónde buscar el error. Tambien aporta modularidad, un equipo puede trabajar en múltiples objetos a la vez mientras se minimizan las posibilidades de codigo duplicado. También permite dividir los problemas en partes más pequeñas.  [Link al grafico](https://drive.google.com/file/d/1ofiuxe0K7C7JruqM4Yv5EUqscHPCfipF/view?usp=drive_link "Title")
 
 ![Grafico explicativo de abstraccion](../Imagenes/Encapsulacion.png "Title")
 
-- <strong>Polimorfismo:</strong> Aporta flexibilidad. Gracias al polimorfismo se permite a una funcion adaptarse a cualquier clase donde se encuentre. De esta forma se ahorra tiempo y se gana en versatilidad. [Link al grafico](https://excalidraw.com/#json=UM582BP5g4EHHgvow3Zvb,8k1ihIrYFDQ5PhxJcq6Jdw "Title")
+- <strong>Polimorfismo:</strong> Aporta flexibilidad. Gracias al polimorfismo se permite a una funcion adaptarse a cualquier clase donde se encuentre. De esta forma se ahorra tiempo y se gana en versatilidad. [Link al grafico](https://drive.google.com/file/d/1AjsjhIh2eyCJm6ghLM1u0b_1V9_5jtsi/view?usp=drive_link "Title")
 
 ![Grafico explicativo de abstraccion](../Imagenes/Polimorfismo.png "Title")
 
@@ -71,7 +71,7 @@ La Programación Orientada a Objetos supone un cambio en la concepción del mund
 
 ---
 
-##  [Boceto inicial del diseño de clases](https://excalidraw.com/#json=KZ2K05D3fDmmzUnPLjUr7,kv-aiHTS16bJzXqlilG6xg "Title")
+##  [Boceto inicial del diseño de clases](https://drive.google.com/file/d/1GGNAoOa1SL22YadFjBeadMl8DcEOqDIP/view?usp=drive_link "Title")
 
 ![Grafico explicativo de abstraccion](../Imagenes/diagrama.png "Title")
 
