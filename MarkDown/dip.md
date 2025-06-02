@@ -14,9 +14,7 @@ Aplicando este principio se pudo separar al programa de estos sistemas a traves 
 
 Esto nos permite una gran flexibilidad comercial y fiabilidad sin necesidad de implementar soluciones especificas para cada herramienta utilizada.
 
-Un ejemplo del mundo real seria si un fabricante de telefonos diseñara su sistema operativo para que utilize un procesador especifico. En cuanto este sea descontinuado, el fabricante se veria forzado a descontinuar la produccion hasta rediseñar la totalidad de su sistema.
-
-Al implementar una interface que se encargue de comunicarse con el procesador, se podria evitar esta situacion y solo rediseñar esta interfaz, evitando un rediseño completo.
+Un ejemplo del mundo real seria si en la clinica cada vez que necesita enviar documentacion, se la entregan al fletero que pasa por la oficina, pero el dia que el falte no se podria hacer envios ya que se lo espera a el especificamente. entonces se podria solucionar dejando la documentacion en algun lugar, como un buzon. Asi, cualquier servicio de correo que tenga las mismas funciones/servicios podria llevarse la documentacion para hacer la entrega
 
 ## [Estructura de clases](https://drive.google.com/file/d/1zaYJx8ratpRkXbpawFEIE9smDY4H86pp/view?usp=drive_link)
 
