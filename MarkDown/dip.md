@@ -14,7 +14,7 @@ Aplicando este principio se pudo separar al programa de estos sistemas a traves 
 
 Esto nos permite una gran flexibilidad comercial y fiabilidad sin necesidad de implementar soluciones especificas para cada herramienta utilizada.
 
-Un ejemplo del mundo real seria si en la clinica cada vez que necesita enviar documentacion, se la entregan al fletero que pasa por la oficina, pero el dia que el falte no se podria hacer envios ya que se lo espera a el especificamente. entonces se podria solucionar dejando la documentacion en algun lugar, como un buzon. Asi, cualquier servicio de correo que tenga las mismas funciones/servicios podria llevarse la documentacion para hacer la entrega
+Un ejemplo del mundo real seria si en la clinica cada vez que necesita enviar documentacion, se la entregan al fletero que pasa por la oficina, pero el dia que el falte no se podria hacer envios ya que se lo espera a el especificamente. entonces se podria solucionar contratando a una compañia de envios. Asi, cualquier empleado que este disponible podria hacer los envios por que simplemente se espera a alguien que lleve el uniforme de la compañia 
 
 ## [Estructura de clases](https://drive.google.com/file/d/1zaYJx8ratpRkXbpawFEIE9smDY4H86pp/view?usp=drive_link)
 
