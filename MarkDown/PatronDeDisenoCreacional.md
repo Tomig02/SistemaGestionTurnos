@@ -1,17 +1,26 @@
-# Anexo - Aplicación de Patrón de Diseño creacional - NombrePatrónElegido
-Una breve explicación de que son los patrones de diseño creacionales, y cómo se
-relacionan con los principios SOLID.
-Propósito y Tipo del Patrón: Una breve explicación del problema y cómo el patrón
-seleccionado lo soluciona.
+# Anexo - Aplicación de Patrón de Diseño creacional - Singleton
+Los patrones de diseño creacional se centran en el proceso de creación de objetos y buscan 
+que un sistema logre una mayor independencia sobre cómo se crean, componen y representan sus objetos.
+Estos patrones estan relacionados con los principios SOLID ya que ambos buscan 
+mejorar la mantenibilidad, escalabilidad y flexibilidad.
+
+Propósito y Tipo del Patrón: En el sistema de la clinica se presentaba el problema de que
+podian existir varias instancias de los notificadores, siendo asignadas a cada turno que quisiera notificar
+algun cambio en su estado. Esto que seria un uso innecesario de los recursos del sistema. 
+Por este inconvenientes es que se decidio aplicar el principio Singleton, que asegura una sola instancia
+encargada de enviar las notificaciones necesarias.
 
 ## Motivación
-Un detalle más profundo del problema que enfrentaba el sistema y cómo el patrón
-de diseño ayuda a resolverlo. Incluye una explicación más detallada de las clases
-implicadas en el problema, y las nuevas clases que se incorporan con el uso del
-patrón y su función.
+En el sistema pensado para la clinica, los turnos son quienes estan encargados de llamar a la funcion Notificar()
+dentro de la interfaz << IAutoNotificacion >>, que es implementada por las diferentes clases notificadoras.
+Esto significa que no solo es necesario generar y almacenar una instancia de un sistema notificador para cada elemento
+sino que tambien es mas completo hacer un control de los mensajes enviados.
+Teniendo en cuenta lo inconveniente de este diseño inicial y teniendo tambien en cuenta la implementacion del patron Observer,
+se pudo modificar el funcionamiento para que la clase AdministradorNotificaciones (nuevo intermediario entre << IAutoNotificacion >> y Turno)
+se convierta en un Singleton que asegure la existencia de una unica instancia global de si mismo, asi cualquier turno tendria acceso
+al sistema de turnos al llamar al metodo Invocar(...) que da aviso a las diferentes implementacions (AutoNotificacionTelefono, AutoNotificacionEmail)
+para que envien los avisos correspondie 
 
-## Estructura de Clases
-Incluir un diagrama de clases UML que muestra cómo las clases implicadas en el
-problema planteado del proyecto se relacionan entre sí al aplicar el patrón. Incluir
-una imagen incrustada, así como el enlace correctamente referenciado para ver el
-diagrama en detalle.
+## [Estructura de Clases](https://drive.google.com/file/d/1sN_XM9FRif1y0mlLrJBKkoF6hUz4Mvz7/view?usp=drive_link)
+
+![Diagrama de patron de diseño Singleton](../Imagenes/NotificacionObserverYSingleton.jpg)

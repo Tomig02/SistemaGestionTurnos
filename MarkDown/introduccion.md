@@ -71,7 +71,7 @@ La Programación Orientada a Objetos supone un cambio en la concepción del mund
 
 ---
 
-##  [Boceto inicial del diseño de clases](https://drive.google.com/file/d/1SiskLpmq61ZIV3qOSQRgSMn4QEvo6mVh/view?usp=drive_link "Title")
+##  [Boceto inicial del diseño de clases](https://drive.google.com/file/d/1L-sUkxS5DDTIW35PXHJny6hZv7Uebavz/view?usp=drive_link "Title")
 
-![Grafico explicativo de abstraccion](../Imagenes/clasesUML.png "Title")
+![Grafico explicativo de abstraccion](../Imagenes/DiagramaDeClaseV2.jpg "Title")
 
