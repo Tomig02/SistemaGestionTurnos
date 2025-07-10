@@ -1,11 +1,9 @@
 # Anexo - Aplicación de Patrón de Diseño de Comportamiento - Observer
-Los patrones de diseño creacionales, similar a los principios SOLID, son guias o diseños 
-sugeridos que estan encargados de ayudar a solucionar problemas comunes, 
+Los patrones de diseño creacionales, similar a los principios SOLID, son guias o diseños sugeridos que estan encargados de ayudar a solucionar problemas comunes, 
 logrando una comunicación mas efectiva y la correcta asignación de responsabilidades entre objetos.
-Tambien, estos patrones se basan o integran los principios SOLID dentro de su propia propuesta.
-Por lo anteriormente mencionado, ayudan en gran manera a definir cómo los objetos interactúan 
-y colaboran para lograr un objetivo, buscando que el codigo resultante sema mas flexible, 
-mas facil de reutilizar y mas comodos de darle mantenimiento durante su uso.
+
+Tambien, estos patrones se basan o integran los principios SOLID dentro de su propuesta. Al proponer como definir las interacciones entre objetos, estos diseños
+pueden velar por la separacion correcta de responsabilidades o menor acoplamiento, por dar un ejemplo.
 
 Propósito y Tipo del Patrón: En el caso de la clinica, existe la necesidad de avisar de cualquier cambio que pueda 
 tener un turno tanto al doctor que provee la atencion, como al paciente dueño del turno.

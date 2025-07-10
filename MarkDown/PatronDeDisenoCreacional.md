@@ -1,13 +1,11 @@
 # Anexo - Aplicación de Patrón de Diseño creacional - Singleton
-Los patrones de diseño creacional se centran en el proceso de creación de objetos y buscan 
-que un sistema logre una mayor independencia sobre cómo se crean, componen y representan sus objetos.
-Estos patrones estan relacionados con los principios SOLID ya que ambos buscan 
-mejorar la mantenibilidad, escalabilidad y flexibilidad.
+Los patrones de diseño creacional se centran en el proceso de creación de objetos y buscan que un sistema logre una mayor independencia sobre cómo se crean, componen y representan sus objetos.
 
-Propósito y Tipo del Patrón: En el sistema de la clinica se presentaba el problema de que
-podian existir varias instancias de los notificadores, siendo asignadas a cada turno que quisiera notificar
-algun cambio en su estado. Esto que seria un uso innecesario de los recursos del sistema. 
-Por este inconvenientes es que se decidio aplicar el principio Singleton, que asegura una sola instancia
+La relacion con los principios SOLID viene de que ya que se busca
+mejorar la calidad del codigo proponiendo por ejemplo decidir el encargado de la creacion de los elementos o generar variaciones de objetos sin afectar su funcionamiento, lo que respeta a los principios.
+
+Propósito y Tipo del Patrón: En el sistema de la clinica se presentaba el problema de que podian existir varias instancias de los notificadores, siendo asignadas a cada turno que quisiera notificar algun cambio en su estado. 
+Esto seria un uso innecesario de los recursos del sistema, por este inconveniente es que se decidio aplicar el patron Singleton, que asegura una sola instancia
 encargada de enviar las notificaciones necesarias.
 
 ## Motivación

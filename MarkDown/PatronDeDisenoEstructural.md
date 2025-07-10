@@ -1,21 +1,21 @@
 # Anexo - Aplicación de Patrón de Diseño Estructural - Facade
 Los patrones estructurales explican cómo ensamblar objetos y clases en estructuras más grandes, realizando las relaciones entre las partes a la misma vez que se mantiene la flexibilidad y eficiencia que ya tenian por separado
 
-Una breve explicación de que son los patrones de diseño creacionales, y cómo se
-relacionan con los principios SOLID.
-Propósito y Tipo del Patrón: Una breve explicación del problema y cómo el patrón
-seleccionado lo soluciona.
+Principalmente se relacionan con los principios SOLID ya que en su funcionamiento intentan evitarnos problemas de mantenibilidad, reutilizabilidad, etc. al implementar las composiciones con el proposito mantener lo mas posible la aplicacion de estos principios.
+
+Propósito y Tipo del Patrón: El problema del sistema de la clinica provenia de su gran disponibilidad de funcionalidades 
+que necesitaban de acceso a diferentes partes del sistema, lo que lleva a que se necesiten varios pasos para hacer algunas tareas
+Pensando en simplificarlo para el usuario o sistema que quiera interactuar, es que se penso en crear esta clase TerminalDeUsuario 
+para englobar y organizar el funcionamiento interno
 
 ## Motivación
 En el sistema de la clinica, gran parte de las acciones se dividen entre los actores representados, es asi que la clase Turno avisa de cambios de estado, la clase agenda lee y modifica los turnos agendados, etc.
 Esto es muy util a la hora de administrar un buen diseño del sistema, pero a la hora de utilizarlos se vuelve incomodamente complejo.
 
-Tomando como ejemplo el generar un turno: se deberia llamar a la funcion ListadoDePersonas.AgregarUnElemento(...) para encontrar el cliente y profesional necesarios, si no existen se debe llamar a ListadoDePersonas.AgregarUnElemento(...) primero, acto seguido se usa la agenda del profesional Agenda.GenerarTurno(...) para crear el turno y asi se continua 
+Entonces es que se penso en crear a TerminalDeUsuario como una facade, que englobe estos servicios y se pueda simplificar el funcionamiento para los usuarios/sistemas externos. La solucion propuesta, segun propone el diseño Facade, es tomar las funciones necesarias y organizarlas en la clase TerminalDeUsuario, con funciones expuestas a los usuarios que haga todo el trabajo de coordinacion necesario con una simple llamada a un metodo
 
-Es asi que teniendo la fachada de TerminalDeUsuario se puede simplificar el funcionamiento para los usuarios. La solucion propuesta, segun propone el diseño Facade, es tomar esta logica necesaria y encapsularla en la clase TerminalDeUsuario, con funciones expuestas a los usuarios que haga todo el trabajo necesario con una simple funcion
+Como ejemplo, al agregar un turno simplemente se llamaria a la funcion TerminalDeUsuario.AgregarUnTurno(...) con los parametros necesarios y ya se encarga de que el turno se genere
 
-Con el mismo ejemplo anterior, simplemente se llamaria a la funcion TerminalDeUsuario.AgregarUnTurno(...) con los parametros necesarios y ya se genera el turno deseado
+## [Estructura de Clases](https://drive.google.com/file/d/16zWODuoEetrkoIwMgV98SbJl5ziBYEqx/view?usp=drive_link)
 
-## [Estructura de Clases](https://drive.google.com/file/d/1uiO7YfESFE95hZj8Ed1pAvkNj402wjpr/view?usp=drive_link)
-
-![Diagrama de diseño Facade](../Imagenes/DiagramaFacadeTerminal.jpg)
+![Diagrama de diseño Facade](../Imagenes/DiagramaFacadeTerminal.jpeg)
