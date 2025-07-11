@@ -14,6 +14,6 @@ Asi se pudo suponer los datos de un actor persona, sin exponerse a confundir si 
 
 Un ejemplo de la realidad puede ser que si la clinica permitiera el acceso a todo el personal de la clinica a las areas internas sin discriminar, se podrian generar problemas de esterilizacion por ejemplo. Asi, si se diferenciaran las areas mas importantes, se podria asegurar que todo el personal tenga acceso al area de descanso por ejemplo, pero no sucederia que el personal administrativo ingrese a una sala de operaciones.
 
-## [Estructura de clases]()
+## [Estructura de clases](https://drive.google.com/file/d/1fVE2gO9VEmsJTAQ9CVzp1i4wS1N94tGV/view?usp=drive_link)
 
 ![Esquema de clase LSP](../Imagenes/lsp.jpeg)
