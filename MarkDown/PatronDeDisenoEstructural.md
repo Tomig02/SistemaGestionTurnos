@@ -1,7 +1,7 @@
 # Anexo - Aplicación de Patrón de Diseño Estructural - Facade
 Los patrones estructurales explican cómo ensamblar objetos y clases en estructuras más grandes, realizando las relaciones entre las partes a la misma vez que se mantiene la flexibilidad y eficiencia que ya tenian por separado
 
-Principalmente se relacionan con los principios SOLID ya que en su funcionamiento intentan evitarnos problemas de mantenibilidad, reutilizabilidad, etc. al implementar las composiciones con el proposito mantener lo mas posible la aplicacion de estos principios.
+En su mayor parte se relacionan con todos los principios SOLID de alguna forma u otra, pero el mas afectado es OCP ya que permiten agregar estructuras o funcionalidades sin modificar lo ya existente e implementar las composiciones con el proposito mantener lo mas posible la aplicacion de los principios.
 
 Propósito y Tipo del Patrón: El problema del sistema de la clinica provenia de su gran disponibilidad de funcionalidades 
 que necesitaban de acceso a diferentes partes del sistema, lo que lleva a que se necesiten varios pasos para hacer algunas tareas

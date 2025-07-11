@@ -2,8 +2,7 @@
 Los patrones de diseño creacionales, similar a los principios SOLID, son guias o diseños sugeridos que estan encargados de ayudar a solucionar problemas comunes, 
 logrando una comunicación mas efectiva y la correcta asignación de responsabilidades entre objetos.
 
-Tambien, estos patrones se basan o integran los principios SOLID dentro de su propuesta. Al proponer como definir las interacciones entre objetos, estos diseños
-pueden velar por la separacion correcta de responsabilidades o menor acoplamiento, por dar un ejemplo.
+Tambien, estos patrones se basan o integran los principios SOLID dentro de su propuesta, con especial valor en SRP y DIP. Al proponer como definir las interacciones entre objetos, estos diseños pueden velar por la separacion correcta de responsabilidades o menor acoplamiento usando interfaces, por dar un ejemplo.
 
 Propósito y Tipo del Patrón: En el caso de la clinica, existe la necesidad de avisar de cualquier cambio que pueda 
 tener un turno tanto al doctor que provee la atencion, como al paciente dueño del turno.
@@ -22,6 +21,6 @@ es invocado por la funcion SolicitarNotificacion() del objeto Turno.
 Las implementaciones especificas se encuentran abstraidas dentro de AdministradorNotificaciones 
 utilizando la interfaz << IAutoNotificacion >> que implementa la funcion Notificar().
 
-## [Estructura de Clases](https://drive.google.com/file/d/1sN_XM9FRif1y0mlLrJBKkoF6hUz4Mvz7/view?usp=drive_link)
+## [Estructura de Clases](https://drive.google.com/file/d/16R942-iA83ngog1jRjcWcWFVsQ_DDwDo/view?usp=drive_link)
 
-![Diagrama de patron de diseño Observer](../Imagenes/NotificacionObserverYSingleton.jpg)
+![Diagrama de patron de diseño Observer](../Imagenes/NotificacionObserverYSingleton.jpeg)
