@@ -6,7 +6,7 @@ El principio mas importante que implementa es el principio de Liskov, ya que est
 
 ## Ejemplo en el proyecto
 
-![Abstraccion-ejemplo](../../Imagenes/fundamentos-mesa/herencia.png)
+![Abstraccion-ejemplo](../../Imagenes/fundamentos-mesa/herencia.png)  
 [link a foto en gdrive](https://drive.google.com/file/d/1h8v2TlwcqnlYO3-wDXDEvEwivBD3l5dM/view?usp=drive_link)
 
 Se puede ver bien este principio en la relacion de las clases paciente y profesional con la clase persona. Al implementar esta clase abstracta estos heredan atributos compartidos que podria tener cualquier Persona y reciben una guia de que metodos deberian tener como minimo

@@ -6,7 +6,7 @@ Estas abstracciones ayudan mayormente con el principio de Liskov, ya que una cla
 
 ## Ejemplo del proyecto
 
-![Abstraccion-ejemplo](../../Imagenes/fundamentos-mesa/abstraccion.png)
+![Abstraccion-ejemplo](../../Imagenes/fundamentos-mesa/abstraccion.png)  
 [link a foto en gdrive](https://drive.google.com/file/d/1ANgiuRagmZDWPgiJU0Po8rDd5pviKW7q/view?usp=drive_link)
 
 Este tipo de principio se implementaria en la mayoria de las clases, pero las clases de repositorios son el mejor ejemplo, ya que "esconden" su funcionamiento a travez de una interfaz y el de los componentes que puedan llegar a tener, al solo exponer metodos que describen las acciones posibles y que informacion se necesita, por ej. si se quiere agregar un paciente: agregar( < datos del paciente > )

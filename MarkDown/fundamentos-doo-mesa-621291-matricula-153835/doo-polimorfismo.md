@@ -7,7 +7,7 @@ Tomando el ejemplo anterior tambien se puede relacionar con Dependency Inversion
 
 ## Ejemplo en el proyecto
 
-![Abstraccion-ejemplo](../../Imagenes/fundamentos-mesa/polimorfismo.png)
+![Abstraccion-ejemplo](../../Imagenes/fundamentos-mesa/polimorfismo.png)  
 [link a foto en gdrive](https://drive.google.com/file/d/1ueMiPW_gVNLNHDqSVfNMqtF24SLZ0bOT/view?usp=drive_link)
 
 Para este principio se podria utilizar el ejemplo del notificador automatico, en este caso varias clases mas especificas implementan a la interfaz de IAutoNotificacion segun el metodo de notificacion que usan. Para ser utilizados por la clase AdministradorNotificaciones a la hora de enviar algun aviso

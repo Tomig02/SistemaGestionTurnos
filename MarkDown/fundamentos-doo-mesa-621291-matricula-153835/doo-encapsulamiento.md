@@ -7,7 +7,7 @@ En este caso el mayor principio beneficiado es el de Single Responsibility, ya q
 
 ## Ejemplo en el proyecto
 
-![Abstraccion-ejemplo](../../Imagenes/fundamentos-mesa/encapsulamiento.png)
+![Abstraccion-ejemplo](../../Imagenes/fundamentos-mesa/encapsulamiento.png)  
 [link a foto en gdrive](https://drive.google.com/file/d/1rsiD1cYMkYNdR1rWW4wA73OSN_NudAMV/view?usp=drive_link)
 
 Es correcto aplicarlo en todos los objetos, pero el mejor ejemplo seria el administrador de notificaciones, ya que contiene su instancia estatica y lista de subscriptores de forma privada, permitiendo la gestion a traves de los metodos publicos como subscribir() o invocar()
